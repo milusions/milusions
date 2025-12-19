@@ -1,0 +1,230 @@
+.milusion-header {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  background-color: #fff;
+  z-index: 100;
+  height: 64px;
+  border-bottom: solid 2px #eaeaea;
+  padding: 16px 32px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.milusion-logo {
+  width: 128px;
+}
+.milusion-header-links {
+  cursor: pointer;
+  padding: 8px 8px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.milusion-header-links:hover {
+  text-decoration: none;
+  background-color: #eaeaea;
+}
+.milusion-intro {
+  height: calc(100%);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.milusion-intro-green-circle {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+.milusion-intro-red-rectangle {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+.milusion-intro-blue-triangle {
+  position: absolute;
+  bottom: 0%;
+  right: 20%;
+}
+.milusion-intro-text {
+  font-size: 56px;
+  min-width: 512px;
+  max-width: 784px;
+  text-align: center;
+  z-index: 10;
+  background-color: #fff;
+  padding: 16px 16px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.color-solid-blue {
+ color: #fff;
+  border-radius: 20px;
+  padding: 8px 16px;
+  background-color: #0077ff;
+}
+.color-blue {
+  color: #0077ff;
+}
+.color-red {
+  color: #e30035;
+}
+.color-solid-red {
+  color: #fff;
+  border-radius: 20px;
+  padding: 8px 16px;
+  background-color: #e30035;
+}
+
+.milusion-vision {
+  height: calc(100% - 64px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.milusion-vision-title {
+  font-size: 48px;
+}
+
+.milusion-vision-text {
+  font-size: 56px;
+  min-width: 512px;
+  max-width: 784px;
+  text-align: center;
+  z-index: 10;
+  background-color: #fff;
+  padding: 16px 16px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.milusion-vision-message {
+  font-size: 24px;
+  padding: 16px 16px;
+  border-radius: 5px;
+  color: #0077ff;
+  background-color: rgba(0, 119, 255, 0.2);
+  min-width: 384px;
+  max-width: 512px;
+  text-align: center;
+}
+
+.milusion-discover {
+  height: calc(100% - 64px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.milusion-discover-title {
+    font-size: 48px;
+}
+
+.products{
+  width:50%;
+  height:fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.product{
+    width:164px;
+  height:208px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 8px 32px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  
+
+}
+
+.product span{
+  user-select: none;
+}
+
+.product:hover{
+  background-color: #EAEAEA;
+}
+
+.milusion-footer{
+    height: 256px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  position: relative;
+}
+
+.footer-content{
+  padding: 16px 48px;
+  box-sizing: border-box;
+  width: 100%;
+  height:100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+ flex-direction: row;
+}
+
+.footer-company{
+   width: fit-content;
+     display: flex;
+  height:100%;
+  align-items: start;
+   justify-content: center;
+  flex-direction: column;
+
+}
+
+.footer-company-name{
+  color: #0077ff;
+  font-size: 44px;
+}
+
+.footer-company-message{
+
+  font-size: 23px;
+  font-weight: 100;
+}
+
+.footer-company-content-link{
+  cursor:pointer;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.footer-legal{
+    padding: 16px 48px;
+  box-sizing: border-box;
+   width: 100%;
+     display: flex;
+  height:fit-content;
+  background-color: #EAEAEA;
+  align-items: start;
+   justify-content: center;
+  flex-direction: row;
+
+}
+.footer-legal-content-link{
+  cursor:pointer;
+  font-weight: bold;
+  font-size: 12px;
+  font-weight: normal;
+}
